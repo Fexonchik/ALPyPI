@@ -13,7 +13,7 @@ If pip:
 
 # Usage
 When You want to usage this, use this command:
-<h6>  python -m alpypi (path to the project)  </h6>
+<h6>  python -m alpypi (*path to the project)  </h6>
 <p>Output:</p>
 <h6>Username:</h6>
 <p>Enter your nickname on PyPI</p>
