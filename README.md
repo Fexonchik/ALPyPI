@@ -1,25 +1,53 @@
-# ALPyPI 
-Warning: this create not author PyPI. When You think report this, please send to my email : proxpro791@gmail.com.
-<p>ALPyPI (Automatic Loading to PyPI) - the least software of fast loading packages to PyPI.</p>
-<p>This working on least scheme: when You run this, running install setuptools and twine. Next, the setup.py is deployed and upload to PyPI.</p>
+# ALPyPI
+
+Warning: this is not a PyPI author's creation. If you are thinking of complaining, please send me an email : proxpro791@gmail.com.
+
+ALPyPI (Automatic  Loading to PyPI) is a convenient and fast software for fast download of packages to PyPI.
+
+This works according to an extremely simple scheme: at startup, setuptools and twine are installed. Next, setup.py is deployed and the package is loaded into PyPI.
 
 # Install
+
 You can install this, use pip or setup.py.
+
 If pip:
-<h6>  pip install ALPyPI.  </h6>
-<p>If setup.py:</p>
-<h6>  python setup.py install  </h6>
-<p>Ready? Next.</p>
+
+###### python(3) -m pip install alpypi
+
+if setup.py:
+
+(Please install Git previous all this)
+
+###### git clone https://github.com/Fexonchik/ALPyPI.git
+
+###### cd ALPyPI
+
+###### python(3) setup.py install
+
+Ready? Next.
 
 # Usage
-When You want to usage this, use this command:
-<h6>  python -m alpypi (*path to the project)  </h6>
-<p>Output:</p>
-<h6>Username:</h6>
-<p>Enter your nickname on PyPI</p>
-<p>Next:</p>
-<h6>Password:</h6>
-<p>(Author this don't read your data.) Enter your password.</p>
-<p>Congratulations! Your package upload to PyPI.</p>
 
+To use this, enter the command:
 
+###### python(3) -m alpypi
+
+If you want to create wheel (file *.whl):
+
+###### python(3) -m alpypi --build-wheel
+
+Output:
+
+###### Username:
+
+Enter your username on PyPI and press Enter.
+
+Next:
+
+###### Password:
+
+(the author does not read your data and now it is almost useless) Enter your password of this account on PyPI.
+
+Congratulations! Your package is published on PyPI!
+
+P.S: This replaces only two or four commands.
